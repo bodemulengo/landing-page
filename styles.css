@@ -3,9 +3,7 @@ body{
     border: 0;
 }
 
-
-
-    .headerwriting{
+  .headerwriting{
     display: flex;
     color: white;
     justify-content: space-between;
@@ -13,9 +11,10 @@ body{
     
 }
 .header{
+    display: flex;
     background-color: #1f2937;
-    
-    
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .seconder{
@@ -102,9 +101,6 @@ body{
     background-color: #E5E7Eb;
     flex-direction: column;
     justify-content: center;
-
-    
-
 }
 
 .quote{
@@ -123,4 +119,46 @@ body{
     font-weight: bold;
     justify-content: center;
 
+}
+
+.call{
+    display: flex;
+    background-color: gray;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}
+
+.calling{
+    display: flex;
+    border: 3px solid lightblue;
+    background-color: #1f2937;
+    border-radius: 8px;
+    height: 100px;
+    width: 600px;
+    justify-content: space-around;
+    align-items: center;
+    color: #E5E7Eb;
+        
+}
+
+.calling2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9fAf8;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    color: #f9fAf8;
+    margin-right: 20px;
+    gap: 20px;
 }
