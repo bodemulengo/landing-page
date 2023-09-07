@@ -67,12 +67,8 @@ body{
     background-color: grey;
     height: 300px;
     gap: 20px;
-    flex-direction: column;
-    
-    
-    
-
-    
+   flex-direction: column;
+   
 }
 
 .service1{
